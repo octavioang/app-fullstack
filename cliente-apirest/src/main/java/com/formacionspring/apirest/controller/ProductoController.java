@@ -29,7 +29,7 @@ import com.formacionspring.apirest.service.ProductoService;
 
 @RestController
 @RequestMapping("api")
-
+@CrossOrigin(origins = "http://localhost:4200/")
 public class ProductoController {
 	
 	@Autowired
